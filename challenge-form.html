@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,300;1,600&display=swap" rel="stylesheet">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@1,500&display=swap');
+        </style>
+    <title>Registration-Form</title>
+</head>
+
+<body>
+
+ 
+
+    <form id="form" action="" method="get">
+        <label id="name">NAME
+
+            <input id="input" type="text">
+    
+         </label>
+
+        <label>EMAIL
+
+            <input type="email">
+        </label>
+
+        <label>AGE
+
+            <input type="number" required min="12" step="1">
+         </label>
+
+
+        <label>BORN DATE
+
+            <input id="date" type="date">
+        </label>
+
+        <label>WHERE DO YOU HAVE ACCOUNT?
+
+            <input id="account" type="checkbox" name="account" value="Facebook">Facebook
+            <input id="account" type="checkbox" name="account" value="Instagram">Instagram
+            <input id="account" type="checkbox" name="account" value="YouTube">YouTube
+        </label>
+
+        <label>SEX
+
+            <input id="sex" type="radio" name="sex" value="Male"> Male
+            <input id="sex" type="radio" name="sex" value="Female">Female
+        </label>
+
+        <label>COLOR EYES
+            <input type="color">
+        </label>
+
+        <label> BIOGRAPHY
+
+            <textarea id="text"></textarea>
+        </label>
+
+        <label>PROFILE PICTURE
+
+            <input id="import" type="file" accept="image/*">
+        </label>
+
+        <label>TEL
+
+            <input type="tel">
+        </label>
+
+
+        <label>FACEBOOK PROFILE LINK
+
+            <input type="url">
+        </label>
+
+        <label>PASSOWORD
+
+            <input type="password" minlength="6" maxlength="8" inputmode="numeric">
+        </label>
+
+        <button id="reset" type="reset">RESET</button>
+
+        <button id="submit" type="submit">SUBMIT</button>
+    </form>
+
+</body>
+
+</html>

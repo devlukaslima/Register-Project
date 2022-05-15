@@ -1,0 +1,66 @@
+button {
+    color:#00008B;
+    background-color: #00FFFF;
+    cursor: pointer;
+    font-weight: bold;
+    border-color: #FF4500;
+    position:relative;
+}
+#submit:hover{
+    background-color:#FF4500;
+    border-color:#00FFFF;
+    color: #00FFFF;
+    transform: scale(1.1);
+    transition: all 0.5s;
+}
+
+#reset:hover{
+    background-color: #FF4500;
+    border-color: #00FFFF;
+    color: #00FFFF;
+    transform: scale(1.1);
+    transition: all 0.5s;
+}
+input {
+    border-color: #FF4500;
+    border-width: 3px 3px;
+    margin: 10px;
+    color: #00FFFF;
+    display: block;
+}
+
+*{
+    font-family: 'Nunito', sans-serif;
+    font-weight: bold;
+    line-height: 50px;
+    background-color:#00008B;
+    margin: 20px 10px;
+}
+form {
+    border-style:solid;
+    border-width: 7px 7px;
+    border-color: #FF4500 ;
+    margin: 10px 7px;
+    
+}
+label{
+    color: #00FFFF;
+    font-size: 20;
+    display: block;
+}
+#date {
+    color: #00FFFF;
+}
+#text {
+    color:#00FFFF;
+    border-color: #FF4500;
+}
+#sex {
+   display:inline;
+}
+#account{
+    display:inline;
+}
+#text{
+    display: block;
+}
